@@ -60,5 +60,9 @@ public class Queue {
         System.out.println(queue.poll());
         Queue queue1 = new Queue();
 //        queue1.peek(); // java.lang.RuntimeException: Your queue is empty.
+        char a = (char)Integer.valueOf("21378").intValue();
+        System.out.println("====="+String.valueOf(a));
+        String result = "（  ）们".replaceAll("\\（.+\\）", "（你）").replace("\\（.+\\）", "（你）");
+        System.out.println("====="+result);
     }
 }
